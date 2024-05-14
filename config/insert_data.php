@@ -15,7 +15,7 @@ if (isset($_POST["addStudent"])) {
         die("Query Failed". mysqli_error($conn));
     }
     else {
-        header("location: ../view/table.php");
+        header("location: ../view/table.php?create_msg=You've successfully created student data.");
     }
 }
 ?>

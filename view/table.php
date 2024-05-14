@@ -84,6 +84,9 @@ include ("../config/connection.php");
                                 } else if (isset($_GET['update_msg'])) {
                                     echo '<h5 style="text-align:center; color:green;">' . $_GET['update_msg'] . '</h5>';
 
+                                } else if (isset($_GET['create_msg'])) {
+                                    echo '<h5 style="text-align:center; color:green;">' . $_GET['create_msg'] . '</h5>';
+
                                 }
                                 ?>
                             </div>
